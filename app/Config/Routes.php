@@ -1,0 +1,14 @@
+<?php
+
+use CodeIgniter\Router\RouteCollection;
+
+/**
+ * @var RouteCollection $routes
+ */
+$routes->get('/', 'Home::index');
+$routes->get('/about', 'Home::about');
+$routes->get('/brand', 'Home::in');
+$routes->get('/', 'Home::index');
+
+
+
